@@ -1,0 +1,164 @@
+/*contact page css*/
+
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+    }
+
+
+
+    .container_contact {
+        background:  rgba(255,140,120,0.7);
+        border-radius: 10px;
+        width: 350px;
+        box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+        margin: 0 auto;   
+        margin-top: 10px;
+    }
+
+    .heading {
+        text-align: center;
+        margin-bottom: 20px;
+        color: #333;
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 5px;
+        color: #555;
+    }
+
+    input, textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        outline: none;
+    }
+
+    textarea {
+        resize: none;
+        height: 80px;
+    }
+
+    .submitbutton {
+        width: 100%;
+        padding: 10px;
+        border: none;
+        background: #667eea;
+        color: #fff;
+        font-size: 16px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    button:hover {
+        background: #5a67d8;
+    }
+
+    .error {
+        color: red;
+        font-size: 12px;
+        margin-top: 5px;
+    }
+
+    .success {
+        color: green;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    @media (max-width: 400px) {
+        .container {
+            width: 90%;
+        }
+    }
+
+
+:root {
+  --bg: #3d9b9b;
+  --card: rgba(255,140,120,0.7);
+  --text: #000;
+  --header: #c77ba0;
+}
+
+body.dark1 {
+  --bg: #1e1e1e;
+  --card: rgba(60,60,60,0.9);
+  --text: #fff;
+  --header: #444;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+  background: var(--bg);
+  color: var(--text);
+  transition: 2.5s;
+}
+
+/* Container */
+.container {
+  margin: 20px;
+  background: #f7cf6bd9;
+  background-size:cover;      /* Fills the div */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents tiling */ 
+  border-radius: 15px;
+  padding: 20px;
+}
+
+/* Header */
+.header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  border-radius: 25px;
+  background: var(--bg);
+  color: white;
+  transition: 0.5s;
+}
+
+.title {
+  font-size: 24px;
+  text-align: center;
+}
+
+.logo-left {
+  position: absolute;
+  left: 10px;
+  height: 60px;
+}
+
+.logo-right {
+  position: absolute;
+  right: 10px;
+  display: flex;
+  gap: 5px;
+}
+
+.logo-right img {
+  height: 60px;
+  border-radius: 50%;
+}
+
+/* Toggle Buttons */
+.toggle {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 8px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
